@@ -1,0 +1,60 @@
+{
+    "author": "Михаил Беляков",
+    "title":  "Запись на занятия",
+    "brand":  "Запись на занятия",
+    "description": "Запись на занятия по программированию к Михаилу Белякову.",
+    "homeLink": "#/",
+    "recaptcha": "6LdOj3MfAAAAAAXmg5YMGmBwC-OBk63TeLihnAO-",
+    "logo": "media/logo.png",
+
+    "svgSprite": [
+        "book", 
+        "calendar-event", 
+        "calendar-x", 
+        "clipboard",
+        "clipboard-check",
+        "person-lines-fill",
+        "cast",
+        "pip",
+        "file-text",
+        "person-workspace",
+        "github"
+    ],
+
+    "navbarLinks": [
+        {"icon": "calendar-event", "link": "https://calendar.google.com/calendar/u/0?cid=bHFpZWNuMnBpY2ptMmw5MWN2czVzbmFyczhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ", "title": "Календарный план занятий"},
+        {"icon": "file-text", "link": "#offer", "title": "Пользовательское соглашение"},
+        {"icon": "cast", "link": "#delivery", "title": "Информация о способах доставки"},
+        {"icon": "person-lines-fill", "link": "#contacts", "title": "Контакты"}
+    ],
+
+    "tocToggle": "Показать список учебных планов",
+    "tocHeader": "Учебные планы:",
+
+    "asideLinks": [
+        {
+            "title": "Языки программирования", 
+            "link": "#languages",
+            "links": [
+                {"link": "#java.md",  "title": "Java", "icon": "book"},
+                {"link": "#java-script.md", "title": "JavaScript", "icon": "book"},
+                {"link": "#python.md",  "title": "Python", "icon": "book"},
+                {"link": "#c-sharp.md",  "title": "C#", "icon": "book"}
+            ]
+        }
+
+    ],
+
+    "withBootstrap":          true,
+    "withSvelte":             true,
+    "withHashRouting":        true,
+    "withHMFLayout":          true,
+    "withComfortableReading": true,
+    "withCustomCss":          true,
+
+    "headerLayout":   "brand-and-end-icons",
+    "mainLayout":     "offcanvas-and-article",
+    "footerLayout":   "simple-copyright",
+
+    "copyright": true
+}

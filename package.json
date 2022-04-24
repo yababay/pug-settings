@@ -1,0 +1,19 @@
+{
+  "name": "@yababay67/pug-settings",
+  "version": "0.0.1",
+  "description": "Модули pug для настройки статических страниц с помощью json-файлов.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pug",
+    "json",
+    "html"
+  ],
+  "author": "Михаил Беляков",
+  "license": "MIT",
+  "dependencies": {
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}

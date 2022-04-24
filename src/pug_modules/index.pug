@@ -1,0 +1,21 @@
+include settings
+doctype html
+html(lang="ru")
+    head
+        meta(charset='utf-8')
+        meta(name="description" content=description)
+        meta(name="author" content=author)
+        meta(name='viewport' content='width=device-width,initial-scale=1')
+
+        link(rel='stylesheet' href='build/bundle.css')
+        link(rel='stylesheet' href='build/custom.css')
+        link(rel='icon' type='image/png' href=logo)
+        script(defer src='build/bundle.js')
+        script(async src="https://www.google.com/recaptcha/api.js?render=" + recaptcha)
+
+        title= title
+
+    body
+        include svg
+        h1 #{title}
+
